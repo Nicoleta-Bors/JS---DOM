@@ -1,0 +1,55 @@
+body {
+  background-color: violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  padding: 30px;
+}
+
+.minus,
+.plus,
+.value {
+  margin: 5px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butt,
+.qoute,
+.counter {
+  text-align: center;
+}
+
+.author {
+  text-align: right;
+}
+
+.backgroundAndQuote,
+.plus,
+.minus {
+  color: black;
+  border-radius: 5px;
+  border-color: black;
+  cursor: pointer;
+}
+
+.backgroundAndQuote:hover,
+.plus:hover,
+.minus:hover {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border-color: white;
+  cursor: pointer;
+}
