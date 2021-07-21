@@ -1,0 +1,17 @@
+Please create a Registration Form as the one attached bellow.
+Simple client side form validation. Check required, length, email and password match.
+
+This form has to validate the details user is entering in each field and in case validation fails it has to highlight the invalid field and display the related message.
+
+Project Specifications:
+Create form UI
+Show error messages under specific inputs
+checkRequired() to accept array of inputs
+checkLength() to check min and max length
+checkEmail() to validate email with regex
+checkPasswordsMatch() to match confirm password
+showError() to display the error message
+showSuccess() to show success green outline
+Add to the above functions as many parameters as you need.
+
+Keep your code documented and clean.

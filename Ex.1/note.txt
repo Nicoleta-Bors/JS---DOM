@@ -1,0 +1,15 @@
+1) Change Background project:
+- create a HTML file with a button in the center of the page
+- each time user clicks the button the entire page background color should be updated to a random color
+- background colors should be predefined in your JS code and should have next values: yellow, red, green, blue, black, orange, pink.
+
+2) Display Famous People Quotes:
+- create a HTML file that will contain a button that on click will display the Name of the Author and the Famous Quote
+- each time the button is clicked a new Author/Quote should be displayed randomly
+- the list of the author and their quotes should be predefined in your JS file as an array of OBJECTS
+
+3) Counter project
+-create a HTML page with 2 buttons (with + and - names) and a label that will display current value
+- when user clicks on the button with "+" name the counter value should be increased by one
+- when user clicks on the button with "-" name the counter value should be decreased by one
+- Counter value should always be greater than zero
