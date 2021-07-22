@@ -5,8 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <div class="container">
+      <div class="mid">
+        <label class="mid" for="totalAmount">The total bill amount: </label>
+        <textarea id="totalAmount" name="totalAmount" rows="1" cols="10"></textarea>
+      </div>
+
+      <p class="mid">The service level:</p>
+      <div class="mid">
+        <input type="radio" id="outstanding" name="serviceLevel" value="0.3" />
+        <label for="outstanding">Outstanding</label> <br />
+        <input type="radio" id="good" name="serviceLevel" value="0.2" />
+        <label for="good">Good</label> <br />
+        <input type="radio" id="oKish" name="serviceLevel" value="0.15" />
+        <label for="oKish">OKish</label> <br />
+        <input type="radio" id="bad" name="serviceLevel" value="0.1" />
+        <label for="bad">Bad</label> <br />
+        <input type="radio" id="never" name="serviceLevel" value="1" />
+        <label for="never">Never coming back</label> <br />
+        <br />
+      </div>
+
+      <label for="nrPersons">The number of persons that are splitting the bill:</label>
+      <select id="nrPersons" name="nrPersons">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <br />
+      <p class="mid"><button id="calculate">Calculate</button></p>
+
+      <p class="mid">Price for each person:</p>
+      <p id="valuePrice" class="mid"></p>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>

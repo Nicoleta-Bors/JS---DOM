@@ -1,0 +1,18 @@
+body {
+  background-color: violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.mid {
+  display: flex;
+  justify-content: center;
+}
